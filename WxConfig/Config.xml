@@ -4,10 +4,10 @@
   <Secret>ef1568c4ad06165f7a165ac9bd03639e</Secret>
   <Authorize_Url></Authorize_Url>
   <PayKey>done2600230done2600230done260023</PayKey>
-  <AccessToken></AccessToken>
-  <AccessToken_Expire></AccessToken_Expire>
-  <JsTicket></JsTicket>
-  <JsTicket_Expire></JsTicket_Expire>
+  <AccessToken>jBdxkFzPdi2dpgOCPSNOKMelQFD8tZIY1DJYcG-vUJ5NC-IFmt7rDqNT59QWAijf6IulYBTFwtYKJWxlEIL4ZUF6fLgmyBHXAaquWKl1Y3Kk7a11u214AxG0xEdSkKL6QRBhADAVWG</AccessToken>
+  <AccessToken_Expire>2016/9/25 20:38:26</AccessToken_Expire>
+  <JsTicket>sM4AOVdWfPE4DxkXGEs8VG0tis-of0jX19kI7H1rbwNE4BxsBvSrGGptPfqucgJ-9Go412D3AaUFPGAPpxyoIg</JsTicket>
+  <JsTicket_Expire>2016/9/25 20:39:36</JsTicket_Expire>
   <Mch_id>1228375502</Mch_id>
   <PayKey></PayKey>
 </Config>

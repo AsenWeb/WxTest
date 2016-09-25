@@ -5,17 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using WxSDK;
-
-public partial class GetMes : System.Web.UI.Page
+public partial class Global_AccessToken : BaseWeb
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Request["code"] != null)
-        {
-
-            //string url = Wx.User.GetAccessToken(Request["code"]);
-            //string result = Wx.Http.Post(url);
-        }
-
+        Wx Wx = new Wx();
+        ResMes("获取全局AccessToken");
+        ResMes(Wx.AccessToken.Get);
     }
 }
