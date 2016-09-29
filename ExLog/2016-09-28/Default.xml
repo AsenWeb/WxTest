@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Ex>
+  <Exception>
+    <Content>微信接口调用异常,errorcode：43100,errmsg：change template too frequently hint: [5Sf_AA0155vr18]</Content>
+    <Row>   在 WxSDK.Instance.Template.SetIndustry(String Industry_Id1, String Industry_id2) 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 39
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 22</Row>
+    <Method>System.String SetIndustry(System.String, System.String)</Method>
+    <Source>WxSDK</Source>
+    <InnerException />
+    <Custom />
+    <Time>2016/9/28 17:44:19</Time>
+  </Exception>
+</Ex>

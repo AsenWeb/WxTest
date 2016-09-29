@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Ex>
+  <Exception>
+    <Content>微信接口调用异常,errorcode：45027,errmsg：template conflict with industry hint: [HxefrA0498vr18]</Content>
+    <Row>   在 WxSDK.Instance.Template.GetTemplateId() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 99
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 26</Row>
+    <Method>Void GetTemplateId()</Method>
+    <Source>WxSDK</Source>
+    <InnerException />
+    <Custom />
+    <Time>2016/9/29 10:30:00</Time>
+  </Exception>
+  <Exception>
+    <Content>微信接口调用异常,errorcode：45027,errmsg：template conflict with industry hint: [D_kzcA0252vr18]</Content>
+    <Row>   在 WxSDK.Instance.Template.GetTemplateId() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 99
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 26</Row>
+    <Method>Void GetTemplateId()</Method>
+    <Source>WxSDK</Source>
+    <InnerException />
+    <Custom />
+    <Time>2016/9/29 10:26:47</Time>
+  </Exception>
+  <Exception>
+    <Content>微信接口调用异常,errorcode：45027,errmsg：template conflict with industry hint: [EzM6CA0124vr20]</Content>
+    <Row>   在 WxSDK.Instance.Template.GetTemplateId() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 99
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 26</Row>
+    <Method>Void GetTemplateId()</Method>
+    <Source>WxSDK</Source>
+    <InnerException />
+    <Custom />
+    <Time>2016/9/29 10:25:45</Time>
+  </Exception>
+  <Exception>
+    <Content>微信接口调用异常,errorcode：44002,errmsg：empty post data hint: [04ORIA0081vr18]</Content>
+    <Row>   在 WxSDK.Instance.Template.GetTemplateId() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 99
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 26</Row>
+    <Method>Void GetTemplateId()</Method>
+    <Source>WxSDK</Source>
+    <InnerException />
+    <Custom />
+    <Time>2016/9/29 10:23:12</Time>
+  </Exception>
+  <Exception>
+    <Content>Wx.Template.GetIndustry:获取行页模板出错</Content>
+    <Row>   在 WxSDK.Instance.Template.GetIndustry() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 73
+   在 Template_TemplateMes.Page_Load(Object sender, EventArgs e) 位置 e:\啊森\CAD项目\webSite\WxTest\Template\TemplateMes.aspx.cs:行号 25</Row>
+    <Method>WxSDK.Model.Template.Wx_Industry GetIndustry()</Method>
+    <Source>WxSDK</Source>
+    <InnerException>
+      <ExItem>
+        <Message>Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'primary_industry', line 1, position 21.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WxSDK.Instance.Template.GetIndustry() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 67</Message>
+        <Row>   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WxSDK.Instance.Template.GetIndustry() 位置 E:\C#Project\WxSDK\WxSDK\Instance\Template.cs:行号 67</Row>
+        <Method>System.Object ReadStringValue(Newtonsoft.Json.ReadType)</Method>
+        <Source>Newtonsoft.Json</Source>
+      </ExItem>
+    </InnerException>
+    <Custom />
+    <Time>2016/9/29 10:03:09</Time>
+    <Time>2016/9/29 10:06:24</Time>
+    <Time>2016/9/29 10:12:50</Time>
+    <Time>2016/9/29 10:12:58</Time>
+    <Time>2016/9/29 10:13:24</Time>
+  </Exception>
+</Ex>

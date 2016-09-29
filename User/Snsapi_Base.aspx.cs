@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using WxSDK;
+using WxSDK.Model.User;
 using System.Configuration;
 
 public partial class User_Snsapi_Base : BaseWeb
@@ -22,20 +23,17 @@ public partial class User_Snsapi_Base : BaseWeb
             GetUserMes(Request["code"]);
             return;
         }
-        string GetCodeUrl=Wx.User.Snsapi_Base(Url+"User/Snsapi_Base.aspx");
-        Response.Redirect(GetCodeUrl);
-        
+       Wx.User.Snsapi_Base(Url+"User/Snsapi_Base.aspx");
     }
 
 
     public void GetUserMes(string Code) {
-        string AcUrl=Wx.User.GetAccessToken(Code);
-        dynamic AccessObj=Wx.Http.PostGetObj(AcUrl);
+        WxAccessToken WxAc =Wx.User.GetAccessToken(Code);
         ResMes("静默授权用户信息如下：");
-        ResMes("【AccessToken】:" + AccessObj.access_token);
-        ResMes("【expires_in】:" + AccessObj.expires_in);
-        ResMes("【refresh_token】:" + AccessObj.refresh_token);
-        ResMes("【openid】:" + AccessObj.openid);
-        ResMes("【scope】:" + AccessObj.scope);
+        ResMes("【AccessToken】:" + WxAc.access_token);
+        ResMes("【expires_in】:" + WxAc.expires_in);
+        ResMes("【refresh_token】:" + WxAc.refresh_token);
+        ResMes("【openid】:" + WxAc.openid);
+        ResMes("【scope】:" + WxAc.scope);
     }
 }
